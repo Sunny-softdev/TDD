@@ -1,0 +1,15 @@
+Purpose of Mock;
+
+
+ Interface    ------------------------->          Components
+                    Mock                                   
+
+
+Mock is used to check the functionality of Component that how it will interact to a particular interface
+
+EXPECT_CALL - needs to be executed
+ON_CALL - need not necessarily be executed
+        - This can be used to setup the sequence when one does not know which function needs to be called
+
+
+Mock class need not necessarily to be derived from the base class. The mock class itself can be named as Base Class
